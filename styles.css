@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+}
+#header,#footer,#intro{
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-links{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.nav-item{
+    padding: 10px 20px;
+}
+.logo{
+    width: 30vw;
+    padding: 10px;
+    font-weight: bold;
+    font-size: large;
+}
+
