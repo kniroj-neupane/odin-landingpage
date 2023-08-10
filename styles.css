@@ -3,25 +3,73 @@
 }
 #header,#footer,#intro{
     background-color: #1f2937;
-    color: #f9faf8;
 }
+
+/* navbar */
 #header{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding:2vh 10vw 0vw 15vw;
+
 }
 .navbar-links{
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
     list-style-type: none;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 .nav-item{
     padding: 10px 20px;
 }
 .logo{
     width: 30vw;
-    padding: 10px;
+    padding: 10px 0px;
     font-weight: bold;
-    font-size: large;
+    font-size: 24px;
+    color: #f9faf8;
+}
+/* Intro section */
+#intro{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 30vh;
+    padding:10vh 10vw 0vw 15vw;
+    height: 50vh;
+
+}
+#right{
+    display: inline;
+    width: 50vw;
+
+}
+#left{
+    width:50vw;
+}
+#left img{
+    width: 60%;
+    padding-left: 10vw;
+}
+#right h1{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+#right p{
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-bottom: 2vh;
+}
+#right button{
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 50px;
+    border: 0px;
+    width: 7vw;
+    height: 5vh;
 }
 
