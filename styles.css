@@ -73,3 +73,31 @@
     height: 5vh;
 }
 
+/* mid section */
+#mid-section{
+    margin-top: 5vh;
+}
+#mid-section h2{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+    text-align: center;
+}
+.small-image{
+    border: 2px solid #3882f6;
+    height: 30vh;
+    width: 13vw;
+    border-radius: 50px;
+}
+#img-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:10vh 15vw 0vh 20vw;
+}
+.img-subtext{
+    text-align: center;
+    font-size: 18px;
+    color: #1f2937;
+}
+
